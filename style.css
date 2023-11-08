@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+body {
+  background-color: black;
+}
+.header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  background-color: rgb(27, 4, 71);
+  justify-content: space-between;
+  align-items: center;
+}
+.header h3 {
+  color: white;
+  margin-left: 15%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+nav {
+  margin-right: 15%;
+}
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  transition: 0.5s;
+}
+nav ul li a:hover {
+  text-shadow: 1px 1px 2px white;
+}
+.direction {
+  width: 100%;
+  display: flex;
+}
+.left {
+  flex-basis: 40;
+  margin-top: 15%;
+  margin-left: 13%;
+}
+.left h1 {
+  color: white;
+  font-size: 36px;
+  line-height: 50px;
+}
+.left h1 span {
+  color: rgb(203, 32, 255);
+}
+#element {
+  color: orange;
+}
+.right {
+  flex-basis: 40;
+  margin-top: 7%;
+  margin-left: 13%;
+}
+.right img {
+  width: 100%;
+}
+.about-me{
+    width: 100%;
+    text-align: center;
+    margin-top: 125px;
+}
+.about-me h2{
+    font-size: 36px;
+    color: white;
+}
+.about-me p{
+    color: black;
+    padding: 30px 40px;
+    margin: 100px 100px;
+    line-height: 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: #fff3f3;
+}
+.courses {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.courses h2 {
+  color: white;
+  font-size: 36px;
+  font-weight: 600;
+}
+.courses p {
+  color: #777;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+}
+.row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.course-col {
+  flex-basis: 31%;
+  background: #fff3f3;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+}
+.course-col h3 {
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.course-col:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+.contact-us{
+  text-align: center;
+}
+.contact-us h2{
+  color: white;
+  font-size: 36px;
+}
