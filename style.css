@@ -77,12 +77,13 @@ nav ul li a:hover {
     color: white;
 }
 .about-me p{
-    color: orange;
+    color: black;
     padding: 30px 40px;
     margin: 100px 100px;
     line-height: 25px;
     border-radius: 10px;
     font-weight: bold;
+    background-color: white;
 }
 .courses {
   width: 80%;
